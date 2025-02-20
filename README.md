@@ -120,9 +120,10 @@ git push -u origin main
 ## **Conclusion**  
 This project successfully **combines machine learning, API development, and web deployment** into a fully functional **Fake News Detection System**. 
 By **deploying it via Flask API and Streamlit**, it ensures easy access for users. 
+With the rise of misinformation, such AI-powered tools will become increasingly vital in maintaining **information integrity**. 
+Future advancements can further enhance its accuracy, scalability, and real-time detection capabilities.
 
-#OUTPUT
 
+#output
 
-
-With the rise of misinformation, such AI-powered tools will become increasingly vital in maintaining **information integrity**. Future advancements can further enhance its accuracy, scalability, and real-time detection capabilities.
+![Image](https://github.com/user-attachments/assets/b79fce5f-5471-4c8b-95c9-bb05cf59e334)
