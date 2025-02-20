@@ -40,9 +40,11 @@ def predict():
     
     # Make prediction
     prediction = model.predict(transformed_text)[0]
-    result = "Real" if prediction == 1 else "Fake"
+    
+    # Convert 0/1 to "Fake News" / "Real News"
+    result = "Real News" if prediction == 1 else "Fake News"
     
     return jsonify({"prediction": result})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=False)
