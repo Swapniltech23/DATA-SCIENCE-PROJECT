@@ -93,7 +93,7 @@ if st.button("Check News"):
             if response.status_code == 200:
                 result = response.json()
                 st.success(f"Prediction: **{result['prediction']}**")
-                st.info(f"Confidence: **{result['confidence']}**")
+                
             else:
                 st.error("Error: Could not connect to API")
         else:
